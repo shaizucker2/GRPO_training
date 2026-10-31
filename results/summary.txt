@@ -1,0 +1,17 @@
+GSM8K before/after results
+
+validation: 256 questions
+  Before: 20.31%
+  After:  71.48%
+  Change: +51.17 percentage points
+  Answer format: 31.6% -> 94.5%
+  Truncation: 0.4% -> 1.6%
+
+test: 1319 questions
+  Before: 15.62%
+  After:  57.24%
+  Change: +41.62 percentage points
+  Answer format: 27.4% -> 95.1%
+  Truncation: 1.0% -> 0.4%
+
+Training improvement is not guaranteed; inspect saved answers as well as scores.

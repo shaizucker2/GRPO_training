@@ -1,0 +1,32 @@
+{
+  "n": 256,
+  "correct": 52,
+  "formatted": 81,
+  "truncated": 1,
+  "accuracy": 0.203125,
+  "format_rate": 0.31640625,
+  "truncation_rate": 0.00390625,
+  "elapsed_seconds": 1273.1347244260833,
+  "assets": {
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "dataset_id": "openai/gsm8k",
+    "dataset_revision": "740312add88f781978c0658806c59bc2815b9866",
+    "split_seed": 42,
+    "system_prompt": "Solve the math problem. Show a concise calculation, then end with exactly one final answer line in the form: #### 42. Replace 42 with your numeric answer; do not put units after it.",
+    "counts": {
+      "train": 7217,
+      "validation": 256,
+      "test": 1319
+    }
+  },
+  "arguments": {
+    "command": "evaluate",
+    "data": "/data/cloudnn/ShaiZucker/Python_Projects/GRPO/gsm8k-grpo/experiments/20261030-070033-233345/data",
+    "adapter": null,
+    "split": "validation",
+    "limit": 0,
+    "tokens": 512,
+    "output": "/data/cloudnn/ShaiZucker/Python_Projects/GRPO/gsm8k-grpo/experiments/20261030-070033-233345/baseline-validation.json"
+  }
+}

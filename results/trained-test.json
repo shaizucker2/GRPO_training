@@ -1,0 +1,32 @@
+{
+  "n": 1319,
+  "correct": 755,
+  "formatted": 1254,
+  "truncated": 5,
+  "accuracy": 0.5724033358605004,
+  "format_rate": 0.9507202426080363,
+  "truncation_rate": 0.0037907505686125853,
+  "elapsed_seconds": 9985.200505058048,
+  "assets": {
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "dataset_id": "openai/gsm8k",
+    "dataset_revision": "740312add88f781978c0658806c59bc2815b9866",
+    "split_seed": 42,
+    "system_prompt": "Solve the math problem. Show a concise calculation, then end with exactly one final answer line in the form: #### 42. Replace 42 with your numeric answer; do not put units after it.",
+    "counts": {
+      "train": 7217,
+      "validation": 256,
+      "test": 1319
+    }
+  },
+  "arguments": {
+    "command": "evaluate",
+    "data": "/data/cloudnn/ShaiZucker/Python_Projects/GRPO/gsm8k-grpo/experiments/20261030-070033-233345/data",
+    "adapter": "/data/cloudnn/ShaiZucker/Python_Projects/GRPO/gsm8k-grpo/experiments/20261030-070033-233345/training/final",
+    "split": "test",
+    "limit": 0,
+    "tokens": 512,
+    "output": "/data/cloudnn/ShaiZucker/Python_Projects/GRPO/gsm8k-grpo/experiments/20261030-070033-233345/trained-test.json"
+  }
+}

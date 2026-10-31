@@ -1,0 +1,28 @@
+{
+  "validation": {
+    "strict_delta_pp": 51.171875,
+    "paired_bootstrap_95_interval_pp": [
+      44.140625,
+      57.8125
+    ],
+    "both_correct": 44,
+    "improved": 139,
+    "regressed": 8,
+    "both_incorrect": 65,
+    "diagnostic_before": 0.2890625,
+    "diagnostic_after": 0.72265625
+  },
+  "test": {
+    "strict_delta_pp": 41.62244124336619,
+    "paired_bootstrap_95_interval_pp": [
+      38.665655799848366,
+      44.50530705079603
+    ],
+    "both_correct": 174,
+    "improved": 581,
+    "regressed": 32,
+    "both_incorrect": 532,
+    "diagnostic_before": 0.2608036391205459,
+    "diagnostic_after": 0.576194086429113
+  }
+}

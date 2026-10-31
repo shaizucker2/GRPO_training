@@ -1,0 +1,3 @@
+Open GRPO_walkthrough.html to read the executed report without installing anything.
+To edit or rerun: install requirements-analysis.txt, open GRPO_walkthrough.ipynb in Jupyter or VS Code, and select a Python kernel. Run from this folder so results/ and source/ can be found. No GPU or model weights are needed.
+Figures are available as PNG and PDF in figures/.
